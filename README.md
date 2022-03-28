@@ -1,4 +1,5 @@
-![image](https://user-images.githubusercontent.com/97252986/160368811-a4b1bb62-d798-4d39-91c3-56ab0d467cf1.png)
+![Снимок экрана 2022-03-28 141438](https://user-images.githubusercontent.com/97252986/160386568-958b419f-af6f-4627-9b76-48b9e6e7f1bf.png)
+
 
 ### Сейчас мой список дел умеет:
 
