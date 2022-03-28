@@ -13,7 +13,14 @@ html {
 	font-family: monospace;
 	font-weight: bold;
 }
-
+#typing {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+	font-family: monospace;
+	font-weight: bold;
+}
 .toggle {
 	padding: 10px;
 	font-size: 1.3rem;
@@ -26,7 +33,7 @@ html {
 }
 .container {
 	margin: 0 auto;
-	padding-top: 50px;
+	padding-top: 30px;
 }
 .message {
 	max-width: 90%;
