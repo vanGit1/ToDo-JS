@@ -7,10 +7,17 @@
 			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
 		/>
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+		<!--Подключаем jQuery-->
+		<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+		<!--Подключаем TypeIt-->
 		<link rel="stylesheet" href="style.css" id="theme" />
-		<title>Document</title>
+		<title>ToDo list</title>
+		<link rel="shortcut icon" type="image/jpg" href="imgage/favicon_desk.png" />
 	</head>
 	<body>
+		<p id="typing"></p>
+
 		<div class="container">
 			<div class="todo_list">
 				<h1>ToDo list</h1>
@@ -32,8 +39,10 @@
 			</section>
 			<div id="clock"></div>
 		</div>
+
 		<script src="scripts/script.js" type="text/javascript"></script>
 		<script src="scripts/toggle.js" type="text/javascript"></script>
 		<script src="scripts/clock.js" type="text/javascript"></script>
+		<script src="scripts/type.js" type="text/javascript"></script>
 	</body>
 </html>
