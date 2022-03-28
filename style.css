@@ -1,10 +1,17 @@
-body {
+body,
+html {
 	background-color: #ffffff;
 	font-family: sans-serif;
 	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
 }
-
+#clock {
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+	font-family: monospace;
+	font-weight: bold;
+}
 .container {
 	margin: 0 auto;
 	padding-top: 50px;
@@ -37,6 +44,11 @@ h1 {
 .desc {
 	text-align: center;
 	color: #fff;
+}
+
+.section {
+	display: flex;
+	justify-content: center;
 }
 .create_new_todo {
 	text-align: center;
